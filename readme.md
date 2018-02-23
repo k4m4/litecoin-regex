@@ -43,6 +43,14 @@ Default: `false` *(Matches any LTC address in a string)*
 Only match an exact string. Useful with `RegExp#test()` to check if a string is an LTC address.
 
 
+## Related
+
+- [ethereum-regex](https://github.com/k4m4/ethereum-regex) - Regular expression for matching Ethereum (ETH) addresses.
+- [bitcoincash-regex](https://github.com/k4m4/bitcoincash-regex) - Regular expression for matching Bitcoin Cash (BCH) addresses.
+- [dash-regex](https://github.com/k4m4/dash-regex) - Regular expression for matching Dash addresses.
+- [dogecoin-regex](https://github.com/k4m4/dogecoin-regex) - Regular expression for matching Dogecoin (DOGE) addresses.
+
+
 ## License
 
 MIT © [Nikolaos Kamarinakis](https://nikolaskama.me)
