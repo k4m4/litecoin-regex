@@ -28,7 +28,6 @@ test('Non-exact LTC addresses', t => {
 	for (const x of fixtures) {
 		t.is((m().exec(`foo ${x} bar`) || [])[0], x);
 	}
-	
 	t.is(m().exec('litecoin:LQL9pVH1LsMfKwt82Y2wGhNGkrjF8vwUst')[0], 'LQL9pVH1LsMfKwt82Y2wGhNGkrjF8vwUst');
 });
 
