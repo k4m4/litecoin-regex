@@ -1,6 +1,6 @@
 {
   "name": "litecoin-regex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Regular expression for matching Litecoin (LTC) addresses.",
   "license": "MIT",
   "repository": "k4m4/litecoin-regex",
