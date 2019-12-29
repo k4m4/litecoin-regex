@@ -9,13 +9,13 @@ declare namespace litecoinRegex {
 }
 
 /**
-    Returns a regex for matching Litecoin (LTC) addresses.
-    @example
-    ```
-    import litecoinRegex = require('litecoin-regex')
-    litecoinRegex().test('nodejsrocks LQL9pVH1LsMfKwt82Y2wGhNGkrjF8vwUst');
-    //=> true
-    ```
+Returns a regex for matching Litecoin (LTC) addresses.
+@example
+```
+import litecoinRegex = require('litecoin-regex')
+litecoinRegex().test('nodejsrocks LQL9pVH1LsMfKwt82Y2wGhNGkrjF8vwUst');
+//=> true
+```
 */
 declare function litecoinRegex(options?: litecoinRegex.Options): RegExp;
 
