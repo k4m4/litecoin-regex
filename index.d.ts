@@ -1,10 +1,10 @@
 declare namespace litecoinRegex {
-	interface Options {
-		/**
-		Only match an exact string. By default, it matches any LTC addresses in a string. Useful with `RegExp#test()` to check if a string is an LTC address.
-		@default false
-		*/
-		readonly exact?: boolean;
+    interface Options {
+        /**
+        Only match an exact string. By default, it matches any LTC addresses in a string. Useful with `RegExp#test()` to check if a string is an LTC address.
+        @default false
+        */
+        readonly exact?: boolean;
     }
 }
 
